@@ -1,0 +1,109 @@
+/* Full page height and background */
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c1b2e;
+}
+
+/* The container that holds both logo and form */
+.login-content {
+    display: flex;
+    width: 70%;
+    max-width: 1200px;
+    background-color: #0c1b2e;
+    border: 1px solid #0c1b2e;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Left section for the logo */
+.logo-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c1b2e;
+    padding: 40px;
+    border-right: 1px solid #fff;
+}
+
+.logo {
+    width: 250px;
+}
+
+/* Right section for the login form */
+.form-section {
+    flex: 1;
+    padding: 60px;
+    background-color: #0c1b2e;
+    color: white;
+}
+
+/* Welcome and instruction text */
+.welcome-text {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.instruction-text {
+    text-align: center;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+/* Form field and labels */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #ddd;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-control {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Button styling */
+.button-container {
+    text-align: center;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .login-content {
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .logo-section {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,110 @@
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #0B163A !important; /* Exact blue shade */
+  }
+  
+  .sidebar-item {
+    padding: 12px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .sidebar-item .icon {
+    margin-right: 10px;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #003366;
+  }
+  
+  .sidebar-item.active {
+    background-color: #004488;
+  }
+  
+  .sidebar-item.active .icon {
+    color: #00ACEE; /* Color for active icon */
+  }
+  
+  /* Main content */
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #F7F9FD; /* Light grey background */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-icon {
+    color: #003366;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    max-width: 300px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+  }
+  
+  .search-bar .add-new {
+    margin-left: auto;
+    padding: 8px 20px;
+    background-color: #00ACEE;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-bar .add-new:hover {
+    background-color: #009AD6;
+  }
+  
+  /* Table styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #E3E3E3;
+    background-color: #F7F9FD;
+  }
+  
+  .table th {
+    color: #00ACEE;
+    font-size: 14px;
+  }
+  
+  .empty-row {
+    height: 60px;
+    background-color: #F1F1F1;
+  }
+  
+  /* Table rows for empty state */
+  .table tbody tr td {
+    background-color: #F1F1F1;
+  }
+  
+  .tenants-title {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
